@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="attachdoc1">Attach Dodument1</string>
+    <string name="attachdoc2">Attach Dodument2</string>
+    <string name="attachdoc3">Attach Dodument3</string>
+    <string name="attachdoc4">Attach Dodument4</string>
+    <string name="attachdoc5">Attach Dodument5</string>
+    <string name="attachdoc6">Attach Dodument6</string>
+    <string name="addmore">Add more</string>
+    <string name="del">Delete</string>
+    <string name="submit">Submit</string>
+</resources>
