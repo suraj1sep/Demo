@@ -17,37 +17,41 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:layout_marginTop="5dp"
-            android:background="@drawable/round_corner_color"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:weightSum="1">
 
 
-                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+              <!--  <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                     android:id="@+id/android_material_design_spinner"
                     android:layout_width="0dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.7"
                     android:hint="Select document"
                     android:padding="5dp"
                     android:textColorHint="#05ab9a"
-                    app:met_floatingLabel="normal" />
+                    app:met_floatingLabel="normal" />-->
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/documentname1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.7"
+                    android:hint="Document name"
+                    android:padding="5dp"
+                    android:textColorHint="#05ab9a"/>
 
                 <ImageView
                     android:id="@+id/freeattachdoc1"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_weight="0.3"
-                    android:adjustViewBounds="true"
-                    android:background="@drawable/round_corner_color"
                     android:src="@drawable/upload_photo" />
 
             </LinearLayout>
@@ -56,46 +60,48 @@
                 android:id="@+id/secondcampLL"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal"
-                android:visibility="gone"
+                android:visibility="visible"
                 android:weightSum="1">
 
 
-                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+              <!--  <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                     android:id="@+id/android_material_design_spinner1"
                     android:layout_width="0dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_weight="0.6"
+                    android:layout_weight="0.7"
                     android:hint="Select document"
                     android:padding="5dp"
                     android:textColorHint="#05ab9a"
-                    app:met_floatingLabel="normal" />
+                    app:met_floatingLabel="normal" />-->
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/documentname2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.7"
+                    android:hint="Document name"
+                    android:padding="5dp"
+                    android:textColorHint="#05ab9a"/>
 
 
                 <ImageView
                     android:id="@+id/secondcamp_attachIV"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_weight="0.3"
-                    android:adjustViewBounds="true"
-                    android:background="@drawable/round_corner_color"
                     android:src="@drawable/upload_photo" />
 
-                <ImageView
+                <!--<ImageView
                     android:id="@+id/del_img2"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
                     android:layout_weight="0.1"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/delete" />
+                    android:src="@drawable/delete" />-->
 
             </LinearLayout>
 
@@ -104,46 +110,48 @@
                 android:id="@+id/thirdcampLL"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal"
-                android:visibility="gone"
+                android:visibility="visible"
                 android:weightSum="1">
 
 
-                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+               <!-- <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                     android:id="@+id/android_material_design_spinner2"
                     android:layout_width="0dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_weight="0.6"
+                    android:layout_weight="0.7"
                     android:hint="Select document"
                     android:padding="5dp"
                     android:textColorHint="#05ab9a"
-                    app:met_floatingLabel="normal" />
+                    app:met_floatingLabel="normal" />-->
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/documentname3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.7"
+                    android:hint="Document name"
+                    android:padding="5dp"
+                    android:textColorHint="#05ab9a"/>
 
 
                 <ImageView
                     android:id="@+id/thirdcamp_attachIV"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_weight="0.3"
-                    android:adjustViewBounds="true"
-                    android:background="@drawable/round_corner_color"
                     android:src="@drawable/upload_photo" />
 
-                <ImageView
-                    android:id="@+id/del_img3"
-                    android:layout_width="0dp"
-                    android:layout_height="60dp"
-                    android:layout_weight="0.1"
-                    android:adjustViewBounds="true"
-                    android:src="@drawable/delete" />
+                <!--  <ImageView
+                      android:id="@+id/del_img3"
+                      android:layout_width="0dp"
+                      android:layout_height="60dp"
+                      android:layout_weight="0.1"
+                      android:adjustViewBounds="true"
+                      android:src="@drawable/delete" />-->
 
             </LinearLayout>
 
@@ -152,45 +160,45 @@
                 android:id="@+id/fourth_campLL"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal"
-                android:visibility="gone"
+                android:visibility="visible"
                 android:weightSum="1">
 
 
-                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+               <!-- <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                     android:id="@+id/android_material_design_spinner3"
                     android:layout_width="0dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_weight="0.6"
+                    android:layout_weight="0.65"
                     android:hint="Select document"
                     android:padding="5dp"
                     android:textColorHint="#05ab9a"
-                    app:met_floatingLabel="normal" />
+                    app:met_floatingLabel="normal" />-->
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/documentname4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.7"
+                    android:hint="Document name"
+                    android:padding="5dp"
+                    android:textColorHint="#05ab9a"/>
 
                 <ImageView
                     android:id="@+id/fourth_camp_attachIV"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_weight="0.3"
-                    android:adjustViewBounds="true"
-                    android:background="@drawable/round_corner_color"
                     android:src="@drawable/upload_photo" />
 
-                <ImageView
+              <!--  <ImageView
                     android:id="@+id/del_img4"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
                     android:layout_weight="0.1"
-                    android:adjustViewBounds="true"
-                    android:src="@drawable/delete" />
+                    android:src="@drawable/delete" />-->
 
             </LinearLayout>
 
@@ -199,45 +207,49 @@
                 android:id="@+id/fifth_campLL"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal"
-                android:visibility="gone"
+                android:visibility="visible"
                 android:weightSum="1">
 
 
-                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            <!--    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                     android:id="@+id/android_material_design_spinner4"
                     android:layout_width="0dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:layout_weight="0.6"
+                    android:layout_weight="0.65"
                     android:hint="Select document"
                     android:padding="5dp"
                     android:textColorHint="#05ab9a"
-                    app:met_floatingLabel="normal" />
+                    app:met_floatingLabel="normal" />-->
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/documentname5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.7"
+                    android:hint="Document name"
+                    android:padding="5dp"
+                    android:textColorHint="#05ab9a"/>
 
                 <ImageView
                     android:id="@+id/fifth_camp_attachIV"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_weight="0.3"
-                    android:adjustViewBounds="true"
-                    android:background="@drawable/round_corner_color"
                     android:src="@drawable/upload_photo" />
 
-                <ImageView
+               <!-- <ImageView
                     android:id="@+id/del_img5"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
                     android:layout_weight="0.1"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/delete" />
+                    android:src="@drawable/delete" />-->
 
 
             </LinearLayout>
@@ -247,54 +259,54 @@
                 android:id="@+id/sixth_campLL"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal"
-                android:visibility="gone"
+                android:visibility="visible"
                 android:weightSum="1">
 
-                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+               <!-- <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                     android:id="@+id/android_material_design_spinner5"
                     android:layout_width="0dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_weight="0.6"
+                    android:layout_weight="0.65"
                     android:hint="Select document"
                     android:padding="5dp"
                     android:textColorHint="#05ab9a"
-                    app:met_floatingLabel="normal" />
+                    app:met_floatingLabel="normal" />-->
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/documentname6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.7"
+                    android:hint="Document name"
+                    android:padding="5dp"
+                    android:textColorHint="#05ab9a"/>
 
                 <ImageView
                     android:id="@+id/sixth_camp_attachIV"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_weight="0.3"
-                    android:adjustViewBounds="true"
-                    android:background="@drawable/round_corner_color"
                     android:src="@drawable/upload_photo" />
 
-                <ImageView
+             <!--   <ImageView
                     android:id="@+id/del_img6"
                     android:layout_width="0dp"
                     android:layout_height="60dp"
                     android:layout_weight="0.1"
-                    android:adjustViewBounds="true"
-                    android:src="@drawable/delete" />
+                    android:src="@drawable/delete" />-->
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
                 android:orientation="vertical">
 
-                <LinearLayout
+              <!--  <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
@@ -314,7 +326,8 @@
                             android:layout_width="40dp"
                             android:layout_height="30dp"
                             android:layout_gravity="center|left"
-                            android:src="@drawable/addmore" />
+                            android:src="@drawable/addmore"
+                            android:id="@+id/imageView2" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -357,27 +370,31 @@
 
                     </LinearLayout>
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                </LinearLayout>-->
 
                     <Button
-                        android:id="@+id/showcaseSubmitBT"
-                        android:layout_width="100dp"
-                        android:layout_height="45dp"
-                        android:layout_marginRight="10dp"
-                        android:background="@drawable/roundedcorner_bgcolor"
-                        android:text="Submit"
+                        android:id="@+id/uploadBT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Upload"
+                        android:layout_gravity="center"
                         android:textAllCaps="false"
+                        android:background="#DD3333"
                         android:textColor="#FFFFFF"
                         android:textSize="16dp" />
 
-                </LinearLayout>
+               <!-- <Button
+                    android:id="@+id/nextBT"
+                    android:layout_width="100dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/roundedcorner_bgcolor"
+                    android:text="Next"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"/>-->
+
             </LinearLayout>
 
         </LinearLayout>
